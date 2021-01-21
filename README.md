@@ -1,9 +1,9 @@
 # Alexa sdk build proces
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+Build procesi za [Link - Upute](https://github.com/alexa/alexa-auto-sdk)
 
 
-## 1.) Preuzmi repo i pokreni prvu fazu instalacije
+## 1.) Preuzmi repo 
 
 > `git clone https://github.com/fic93/alexa-scripts.git`
 > `cd alexa-scripts`
@@ -11,10 +11,9 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 
 
-
 ## 2.) Dodaj svoje config podatke u `configure-json.sh`
 
-[Link - Upute](https://khan.github.io/KaTeX/)
+[Link - Upute](https://github.com/alexa/alexa-auto-sdk/tree/3.1/samples/cpp)
 
 
 ## 3.) Dodaj env varijable
