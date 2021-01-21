@@ -1,6 +1,6 @@
 # Alexa sdk build proces
 
-Build procesi za [Link - Upute](https://github.com/alexa/alexa-auto-sdk)
+Build procesi za [alexa-auto-sdk](https://github.com/alexa/alexa-auto-sdk)
 
 
 ## 1.) Preuzmi repo 
