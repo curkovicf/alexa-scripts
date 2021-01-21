@@ -1,0 +1,36 @@
+## 1.
+    Dodaj svoje podatke u configure-json.sh
+    Upute: https://github.com/alexa/alexa-auto-sdk/tree/3.1/samples/cpp#enabling-optional-device-capabilities
+
+        1.1) Edit the config file template and save it as samples/cpp/assets/config.json.
+
+        1.2) Replace the ${YOUR_CLIENT_ID}, ${YOUR_PRODUCT_ID}, and ${YOUR_DEVICE_SERIAL_NUMBER} placeholders with your values as follows:
+             Replace ${YOUR_CLIENT_ID} with the Client ID, which you can find in your device's Security Profile under the Other devices and platforms tab.
+             Replace ${YOUR_PRODUCT_ID} with the Product ID, which you can find under the Products tab on the AVS Developer Console. (It is different from the Amazon ID.)
+             Replace ${YOUR_DEVICE_SERIAL_NUMBER} with an arbitrary value that must not contain spaces and must be unique.
+ 
+
+## 2.
+    Otvori terminal i copy-paste:
+        export AAC_SDK_HOME=~/Projects/alexa-auto-sdk OE_CORE_PATH=~/oe-core
+    Nemoj zatvarat ovaj session terminal
+    Nastavi raditi sve ostale taskove u ovom terminal session-u
+
+
+## 3.
+    Odi u direktorij /home/tvoj_username/Projects/alexa-auto-sdk/samples/cpp/SampleApp
+    Otvori CMakeLists.txt 
+    Na dnu pronadi metodu configure_file()
+    Promijeni config.json.in u config.json
+    Save i zatvori text editor
+
+
+## 4.
+    Navigiraj terminal u alexa-scripts direkotorij
+    Napisi bash install.sh
+    
+
+## 5.
+    Dodan je run.sh u bin folder i sada mozes pokrenti aplikaciju bilo gdje iz terminala
+    U terminalu napisi bash run.sh (mozes iz bilo kojeg direkotorija, radi globalno)
+    
