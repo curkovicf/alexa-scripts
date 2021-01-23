@@ -5,8 +5,8 @@ Build procesi za [alexa-auto-sdk](https://github.com/alexa/alexa-auto-sdk)
 
 ## 1.) Preuzmi repo 
 
-> `git clone https://github.com/fic93/alexa-scripts.git`
-> `cd alexa-scripts`
+> `git clone https://github.com/fic93/alexa-scripts.git` <br/>
+> `cd alexa-scripts` <br/>
 > `bash install-phase-1.sh`
 
 
@@ -40,8 +40,8 @@ Otvori terminal i copy-paste:
 
 Iz alexa-scripts direktorija i pokreni instalaciju
 
-> cd alexa-scripts 
-> bash `install-phase-2.sh`
+> cd alexa-scripts <br/>
+> `bash install-phase-2.sh`
 
 ## 6.) Pokretanje
 
