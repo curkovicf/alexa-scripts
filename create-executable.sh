@@ -9,3 +9,5 @@ if [ ! -d "bin" ]; then
 fi
 
 cp $script_location ~/bin
+
+

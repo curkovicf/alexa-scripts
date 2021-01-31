@@ -14,11 +14,11 @@ fi
 
 
 # Write credentials
-contents="$(jq '."aace.alexa".avsDeviceSDK.deviceInfo.clientId = "YOUR_CLIENT_ID"' $config_json)" && \
+contents="$(jq '."aace.alexa".avsDeviceSDK.deviceInfo.clientId = "amzn1.application-oa2-client.ffbf4e772fc94c01be9ddebe72dbc34e"' $config_json)" && \
 echo "${contents}" > $config_json && \
 contents="$(jq '."aace.alexa".avsDeviceSDK.deviceInfo.deviceSerialNumber = "ubuntu16.04"' $config_json)" && \
 echo "${contents}" > $config_json && \
-contents="$(jq '."aace.alexa".avsDeviceSDK.deviceInfo.productId = "YOUR_PRODUCT_ID"' $config_json)" && \
+contents="$(jq '."aace.alexa".avsDeviceSDK.deviceInfo.productId = "RimacAutoSdk"' $config_json)" && \
 echo "${contents}" > $config_json && \
 contents="$(jq '."aace.alexa".avsDeviceSDK.deviceInfo.manufacturerName = "CurkovicTiger"' $config_json)" && \
 echo "${contents}" > $config_json && \

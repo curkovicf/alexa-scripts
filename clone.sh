@@ -1,9 +1,7 @@
 #! bin/bash
 
-
 sudo rm -rf ~/Projects 
 sudo rm -rf ~/oe-core
-
 
 echo -e "\n\n*** Cloning oe-core && alexa-auto-sdk ***\n\n"
 
@@ -19,3 +17,6 @@ git clone https://github.com/alexa/alexa-auto-sdk.git
 echo -e "\n*** clone alexa-auto-sdk COMPLETE ***\n"
 
 echo -e "\n\n*** Cloning oe-core && alexa-auto-sdk - COMPLETE ***\n\n"
+
+
+

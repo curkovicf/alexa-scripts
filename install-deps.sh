@@ -43,8 +43,6 @@ sudo apt install -y gstreamer1.0-libav \
                         jq \
                         qt-sdk
 
-
-    
     
 
 
