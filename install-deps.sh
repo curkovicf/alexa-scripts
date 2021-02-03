@@ -40,8 +40,7 @@ sudo apt install -y gstreamer1.0-libav \
                         libpopt-dev \
                         zlib1g-dev \
                         libssl-dev \
-                        jq \
-                        qt-sdk
+                        jq
 
     
 

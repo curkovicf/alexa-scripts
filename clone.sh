@@ -13,7 +13,8 @@ echo -e "\n*** clone oe-core - COMPLETE ***\n"
 
 mkdir ~/Projects &&
 cd ~/Projects &&
-git clone https://github.com/alexa/alexa-auto-sdk.git
+#   git clone https://github.com/alexa/alexa-auto-sdk.git
+git clone https://github.com/fic93/alexa-auto-sdk.git
 echo -e "\n*** clone alexa-auto-sdk COMPLETE ***\n"
 
 echo -e "\n\n*** Cloning oe-core && alexa-auto-sdk - COMPLETE ***\n\n"
